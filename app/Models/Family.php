@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Family extends Model
 {
+    protected $fillable = ['name'];
     //uno a muchos
     public function categories()
     {

@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Option extends Model
 {
+    protected $fillable = ['name', 'type'];
     //muchos a muchos
     public function products()
     {
